@@ -18,7 +18,7 @@ let GoogleStrategy = class GoogleStrategy extends (0, passport_1.PassportStrateg
         super({
             clientID: '377382968314-91kbcbiggicm4mvflepgdmi2e2eho8hl.apps.googleusercontent.com',
             clientSecret: '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',
-            callbackURL: 'http://localhost:3002/auth/google/callback',
+            callbackURL: 'https://googleauthtestv2.onrender.com/auth/google/callback',
             scope: ['email', 'profile'],
         });
     }
