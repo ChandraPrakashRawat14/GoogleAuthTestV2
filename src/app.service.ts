@@ -12,6 +12,6 @@ export class AppService {
     }
   }
   hello() {
-    return "Hello"
+    return "Active"
   }
 }
